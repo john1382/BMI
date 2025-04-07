@@ -5,15 +5,15 @@ function calculateBMI(){
   let paragElement = document.querySelector('.parag2')
   document.querySelector('.parag1').innerHTML = `<strong>Your BMI:</strong>${BMI.toFixed(2)}`
   if(BMI <= 0){
-    paragElement.innerHTML = 'Funny Motherfucker'
+    paragElement.innerHTML = 'Funny boy'
   }else if(BMI < 18){
-    paragElement.innerHTML = 'Hit the gym BITCH'
+    paragElement.innerHTML = 'Hit the gym '
   }else if(BMI >= 18 && BMI <= 21){
     paragElement.innerHTML = 'Healthy'
   }else if(BMI >21 && BMI <= 25){
     paragElement.innerHTML = 'So,you go to gym?'
   }else{
-    paragElement.innerHTML = 'obese Motherfucker'
+    paragElement.innerHTML = 'obese'
   }
 }
 function Enter(){
