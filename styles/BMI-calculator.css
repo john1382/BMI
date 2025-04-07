@@ -1,6 +1,9 @@
 body{
   background-color: #28282B;
 }
+.frame{
+  flex-direction:column;
+}
 .frame,.div-parag{
   display: flex;
   justify-content: center;
@@ -55,6 +58,13 @@ button{
   border-radius: 3px;
 }
 
+.creator{
+    position: absolute;
+    color: white;
+    left: 10px;
+    bottom: 10px;
+  }
+
 
 @media(max-width: 413px){
   .frame,.div-parag{
@@ -74,12 +84,5 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .creator{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 367px;
-    color:white;
   }
 }
