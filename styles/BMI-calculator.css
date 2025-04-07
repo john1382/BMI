@@ -28,7 +28,7 @@ body{
   color:white;
   justify-content: center;
   flex-direction: column;
-  align-item:center;
+  align-items:center;
 }
 h1{
   font-size: 50px;
