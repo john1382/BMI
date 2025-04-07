@@ -2,7 +2,7 @@ body{
   background-color: #28282B;
 }
 .frame{
-  flex-direction:column;
+  flex-direction: column;
 }
 .frame,.div-parag{
   display: flex;
